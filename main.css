@@ -1,0 +1,182 @@
+body {
+            margin: 0;
+            font-size: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header {
+   
+            background:#fff;
+            display:flex;
+            margin:0 137px;
+            height:80px;
+        }
+	.address{
+	  font-size:14px;
+	   padding-top:30px;
+	 color:#686b78;
+	}
+	.foodTitle{
+	font-size:16px;
+	font-weight:600 !important;
+	color:#282c3f;
+	margin-top:15px;
+        font-family:sans-serif;
+	letter-spacing:0;
+        }
+	.newItem{
+         background: red;
+    	 position: absolute;
+   	 height: 25px;
+  	 width: 114px;
+    	color: #fff;
+   	 padding: 3px 4px;
+        }
+	.foodType{
+	color:#686b78;
+	font-size:14px;
+	}
+	.orderPeriod{
+	color:#535665;
+	font-size:13px;
+	}
+        .orderRating{
+	color:#fff;
+	background:#db7c38;
+        padding:2px 8px;
+	}
+	.highOrderRating{
+	color:#fff;
+	background:#48c479;
+        padding:2px 8px;
+	}
+	.rating{
+	padding-bottom:15px;
+	border-bottom:1px solid #dadada;
+	}
+	.discount{
+	color: #8a584b;
+	padding-top:15px;
+	}
+        
+        .fixedHeader{
+                    background:##f6f6f7;
+                    display:flex;
+                    color:black;
+                    height:80px;
+                    border-bottom:1px solid #dadada;
+		    z-index:1;
+
+                }
+
+
+         .food{
+		
+		 height:370px;
+                 background:##f6f6f7;
+                 MAX-width:100%;
+                 padding:15px;
+                 margin-bottom:30px;
+                 
+}
+	.food:hover{
+		transition: box-shadow .3s;
+                box-shadow: 2px 2px 8px 2px rgb(0 0 0 / 20%);
+		cursor:pointer;
+
+}
+ 	.hideText{
+		display:none;
+		}
+	.hideText:hover{
+		display:block;
+		}
+        .test1, .test2, .test3, .test4, .test5{
+         width:19% !important;
+	color: #686b78;
+	font-size:13px !important;
+         }
+        #navbar {
+            overflow: hidden;
+           
+        }
+
+            #navbar a {
+              
+                display: block;
+                color: #f2f2f2;
+                
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                #navbar a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                #navbar a.active {
+                    background-color: #dadada;
+                    color: white;
+                }
+
+        .content {
+            padding: 20px 20px;
+            margin:0 137px;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+            .sticky + .content {
+                padding-top: 60px;
+            }
+            .test1, .test2, .test3, .test4, .test5{
+               
+                padding:10px 10px;
+                font-size:16px;
+                padding-top:30px;
+                text-align:center;
+    
+            }
+             .logo {
+                width:28%;
+                padding:10px 10px;
+                text-align:left;
+            }
+	.imageFood{
+	width:100%;
+	height:60%;
+	}
+            @media screen and (max-width: 640px) and (min-width: 320px) {
+          .header ,  .fixedHeader{
+            margin:0 40px;
+            height:50px;
+        }
+ 	.content {
+            padding: 10px 10px;
+            height:auto;
+            background:#f1f1f1;
+            margin:0 10px;
+        }
+	.imageFood{
+	width:100%;
+	height:20%;
+	}
+	.food{
+	padding:5px;
+	}
+         
+          
+      } @media screen and (max-width: 1023.98px) and (min-width: 720px) {
+	.content {
+            padding: 10px 10px;
+            height:auto;
+            background:#f1f1f1;
+            margin:0 20px;
+        }
+}
+        
